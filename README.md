@@ -23,5 +23,4 @@ web.config
     </rewrite>
   </system.webServer>
 </configuration>
-</pre>
 ```
