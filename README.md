@@ -1,10 +1,28 @@
-APACHE CONFIG
+# Apache Configuration
+
+1. Create a .htaccess file 
+
+2. Copy/Paste this code
+
+<pre>
+<code>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
+</code>
+</pre>
+
+3. Save this file where index.html is located
 
 
 
-IIS CONFIG
+# IIS Configuration
 
-web.config
+1. Create web.config file
+2. Copy/Paste this code
 
 ```xml
 <configuration>
@@ -24,3 +42,6 @@ web.config
   </system.webServer>
 </configuration>
 ```
+
+
+3. Save this file where index.html is located
