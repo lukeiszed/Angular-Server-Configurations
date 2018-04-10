@@ -6,7 +6,7 @@ IIS CONFIG
 
 web.config
 
-<pre>
+```xml
 <configuration>
   <system.webServer>
     <rewrite>
@@ -24,3 +24,4 @@ web.config
   </system.webServer>
 </configuration>
 </pre>
+```
