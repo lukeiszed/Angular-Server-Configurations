@@ -4,8 +4,9 @@ APACHE CONFIG
 
 IIS CONFIG
 
-we.config
+web.config
 
+<pre>
 <configuration>
   <system.webServer>
     <rewrite>
@@ -22,3 +23,4 @@ we.config
     </rewrite>
   </system.webServer>
 </configuration>
+</pre>
